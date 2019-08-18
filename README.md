@@ -20,6 +20,8 @@ Para rodar o banco de dados corretamente, instalar o Docker e utilizar o comando
 docker login - logar no Docker<br>
 docker run -p 5432:5432 -d -t kartoza/postgis - para fazer rodar a imagem/container<br>
 docker ps - para visualizar a imagem que está utilizando agora, incluindo a porta que está utilizando.<br>
-npx sequelize db:migrate - migrar as configurações feitas no database.js para o banco de dados.
+npx sequelize db:migrate - migrar as configurações feitas no database.js para o banco de dados.<br>
+yarn add bcryptjs - para poder criptografar as senhas<br>
+yarn add multer - para poder gerenciar o upload dos arquivos
 </p>
 <em>O ESlint é mais para deixar bem arrumado o código, não precisa instalar se não quiser.</em>
