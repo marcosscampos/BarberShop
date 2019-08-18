@@ -13,7 +13,7 @@ Após configurar o nodemon, entre no package.json e abaixo de "license", você i
     },
 </pre>
 "yarn add nunjucks" - é para poder trabalhar com templates engines no JS, manipulando com mais facilidade.<br>
-"yarn add sequelize" - ele é um mapeador de dados relacionais(tabelas, colunas e linhas) para objetos Javascript.
-"yarn add pg" - para trabalhar utilizando o POSTGRESQL.
+"yarn add sequelize" - ele é um mapeador de dados relacionais(tabelas, colunas e linhas) para objetos Javascript.<br>
+"yarn add pg" - para trabalhar utilizando o POSTGRESQL.<br>
 </p>
 <em>O ESlint é mais para deixar bem arrumado o código, não precisa instalar se não quiser.</em>
