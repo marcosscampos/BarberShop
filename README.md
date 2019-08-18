@@ -15,5 +15,11 @@ Após configurar o nodemon, entre no package.json e abaixo de "license", você i
 "yarn add nunjucks" - é para poder trabalhar com templates engines no JS, manipulando com mais facilidade.<br>
 "yarn add sequelize" - ele é um mapeador de dados relacionais(tabelas, colunas e linhas) para objetos Javascript.<br>
 "yarn add pg" - para trabalhar utilizando o POSTGRESQL.<br>
+Para rodar o banco de dados corretamente, instalar o Docker e utilizar o comando "docker pull kartoza/postgis". Depois baixar o DBeaver e configurar.<br>
+<strong>Seguintes comandos do docker e sequelize no cmd</strong><br>
+docker login - logar no Docker<br>
+docker run -p 5432:5432 -d -t kartoza/postgis - para fazer rodar a imagem/container<br>
+docker ps - para visualizar a imagem que está utilizando agora, incluindo a porta que está utilizando.<br>
+npx sequelize db:migrate - migrar as configurações feitas no database.js para o banco de dados.
 </p>
 <em>O ESlint é mais para deixar bem arrumado o código, não precisa instalar se não quiser.</em>
